@@ -42,4 +42,10 @@ public class AppDynamics {
 		System.out.println("android app dynamics setUserData key : " + key + " value : " + value + " persist:" + persist);
 		Instrumentation.setUserData(key, value, persist); 
 	}
+	
+	public static void takeScreenshot(){
+		System.out.println("android app dynamics screenshot");
+		Instrumentation.takeScreenshot(); 
+	}
+	
 }
